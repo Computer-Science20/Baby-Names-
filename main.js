@@ -12,7 +12,7 @@ let nameCountSpan = document.getElementById("name-count");
 let babyData = [];
 fetch("baby-names-data.json")
   .then((res) => res.json())
-  .then((data) => (babyData = data));
+  .then((data) => {babyData = data});
 
 // Event Listener on Go Button
 goBtn.addEventListener("click", goBtnClicked);
@@ -26,39 +26,92 @@ function goBtnClicked() {
   if (selection === "display-all") {
     displayAll();
   } else if (selection === "gender") {
-    searchGender();
+    displayGender();
   } else if (selection === "rank") {
-    searchRank();
+    displayRank();
   } else if (selection === "starting-letter") {
-    searchStartingLetter();
+    displayStartingLetter();
   } else if (selection === "length") {
-    searchLength();
+    displayLength();
   }
 }
 
+
 // Display All Baby Names
 function displayAll() {
+    let htmlStr = "";
+    for (let i = 0; i < babyData.length; i++) {
+    htmlStr += babyHTMLStr(babyData[i]);
+    }
+    container.innerHTML = htmlStr;
   console.log("Display All");
   // Confirm data load
   console.log(babyData);
 }
 
 // Display Names by Gender
-function searchGender() {
+function displayGender() {
+    let searchGender = prompt("Please enter the Gender to display: ");
+
+    let htmlStr = "";
+    for (let i = 0; i < babyData.length; i++) {
+        if (babyData[i].gender === searchGender) {
+          htmlStr += babyHTMLStr(babyData[i]);
+        }
+    }
+    container.innerHTML = htmlStr;
   console.log("Search By Gender");
 }
 
 // Display Names within a Range of Ranks
-function searchRank() {
+function displayRank() {
+    let searchRank = prompt("Please enter the Rank to display: ");
+
+    let htmlStr = "";
+    for (let i = 0; i < babyData.length; i++) {
+        if (babyData[i].rank === searchRank) {
+          htmlStr += babyHTMLStr(babyData[i]);
+        }
+    }
+    container.innerHTML = htmlStr;
   console.log("Search By Rank");
 }
 
+
 // Display Names with Starting Letter
-function searchStartingLetter() {
+function displayStartingLetter() {
+    let searchStartLetter = prompt("Please enter the First Letter of the Name to display: ");
+
+    let htmlStr = "";
+    for (let i = 0; i < babyData.length; i++) {
+      if (babyData[i].startletter === searchStartLetter) {
+        htmlStr += babyHTMLStr(babyData[i]);
+      }
+    }
+    container.innerHTML = htmlStr;
   console.log("Search by Starting Letter");
 }
 
 // Display Names with a Specific Length
-function searchLength() {
+function displayLength() {
+    let searchNameLength = prompt("Please enter the Length of the Name to display: ");
+
+    let htmlStr = "";
+    for (let i = 0; i < babyData.length; i++) {
+      if (babyData[i].nameLength === searchNameLength) {
+        htmlStr += babyHTMLStr(babyData[i]);
+      }
+    }
+    container.innerHTML = htmlStr;
   console.log("Search by Name Length");
+}
+
+// Return html string of given baby 
+function babyHTMLStr(baby) {
+    return `
+      <div>
+        <p>
+         <strong>${baby.name}</strong> (Rank: ${baby.rank} , Gender: ${baby.gender} )
+        </p>
+      </div>`;
 }
