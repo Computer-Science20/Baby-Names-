@@ -56,14 +56,12 @@ function displayAll() {
 // Display Names by Gender
 function displayGender() {
     let searchGender = prompt("Please enter the Gender to display: ");
-    let nameCountSpan = 0;
+ 
     let htmlStr = "";
-    let  = 0;
     for (let i = 0; i < babyData.length; i++) {
         if (babyData[i].gender === searchGender) {
-          htmlStr += babyHTMLStr(babyData[i]); {
-            nameCountSpan++;
-          }
+          htmlStr += babyHTMLStr(babyData[i]);
+    
         }
     }
     container.innerHTML = htmlStr;
@@ -80,7 +78,7 @@ function displayRank() {
           htmlStr += babyHTMLStr(babyData[i]);
         }
     }
-    container.innerHTML = htmlStr;
+    container.innerHTML = Integer.valueOf(htmlStr);
   console.log("Search By Rank");
 }
 
