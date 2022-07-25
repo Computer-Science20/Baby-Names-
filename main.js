@@ -40,8 +40,12 @@ function goBtnClicked() {
 // Display All Baby Names
 function displayAll() {
     let htmlStr = "";
+    let count = 0;
     for (let i = 0; i < babyData.length; i++) {
     htmlStr += babyHTMLStr(babyData[i]);
+    } {
+      count++;
+      container.innerHTML = nameCountSpan;
     }
     container.innerHTML = htmlStr;
   console.log("Display All");
@@ -52,11 +56,14 @@ function displayAll() {
 // Display Names by Gender
 function displayGender() {
     let searchGender = prompt("Please enter the Gender to display: ");
-
+    let nameCountSpan = 0;
     let htmlStr = "";
+    let  = 0;
     for (let i = 0; i < babyData.length; i++) {
         if (babyData[i].gender === searchGender) {
-          htmlStr += babyHTMLStr(babyData[i]);
+          htmlStr += babyHTMLStr(babyData[i]); {
+            nameCountSpan++;
+          }
         }
     }
     container.innerHTML = htmlStr;
@@ -84,7 +91,7 @@ function displayStartingLetter() {
 
     let htmlStr = "";
     for (let i = 0; i < babyData.length; i++) {
-      if (babyData[i].startletter === searchStartLetter) {
+      if (babyData[i].startingletter === searchStartLetter) {
         htmlStr += babyHTMLStr(babyData[i]);
       }
     }
@@ -98,7 +105,7 @@ function displayLength() {
 
     let htmlStr = "";
     for (let i = 0; i < babyData.length; i++) {
-      if (babyData[i].nameLength === searchNameLength) {
+      if (babyData[i].length === searchNameLength) {
         htmlStr += babyHTMLStr(babyData[i]);
       }
     }
