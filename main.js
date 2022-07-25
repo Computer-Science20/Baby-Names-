@@ -7,6 +7,7 @@ let goBtn = document.getElementById("go-btn");
 let menuSelect = document.getElementById("menu-select");
 let container = document.getElementById("container");
 let nameCountSpan = document.getElementById("name-count");
+let outputEl = document.getElementById("output");
 
 // Initialize Array of Character Objects from json file
 let babyData = [];
@@ -40,12 +41,12 @@ function goBtnClicked() {
 // Display All Baby Names
 function displayAll() {
     let htmlStr = "";
-    let count = 0;
+    let nameCountSpan = 0;
     for (let i = 0; i < babyData.length; i++) {
     htmlStr += babyHTMLStr(babyData[i]);
     } {
-      count++;
-      container.innerHTML = nameCountSpan;
+      nameCountSpan++;
+      output.innerHTML = nameCountSpan;
     }
     container.innerHTML = htmlStr;
   console.log("Display All");
@@ -55,15 +56,16 @@ function displayAll() {
 
 // Display Names by Gender
 function displayGender() {
+    let nameCountSpan = 0
     let searchGender = prompt("Please enter the Gender to display: ");
- 
     let htmlStr = "";
     for (let i = 0; i < babyData.length; i++) {
         if (babyData[i].gender === searchGender) {
           htmlStr += babyHTMLStr(babyData[i]);
-    
+          nameCountSpan++;
         }
     }
+    outputEl.innerHTML = nameCountSpan;
     container.innerHTML = htmlStr;
   console.log("Search By Gender");
 }
@@ -71,14 +73,13 @@ function displayGender() {
 // Display Names within a Range of Ranks
 function displayRank() {
     let searchRank = prompt("Please enter the Rank to display: ");
-
     let htmlStr = "";
     for (let i = 0; i < babyData.length; i++) {
         if (babyData[i].rank === searchRank) {
           htmlStr += babyHTMLStr(babyData[i]);
         }
     }
-    container.innerHTML = Integer.valueOf(htmlStr);
+    container.innerHTML = htmlStr;
   console.log("Search By Rank");
 }
 
