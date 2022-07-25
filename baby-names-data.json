@@ -2,501 +2,702 @@
     {
       "rank": 1,
       "name": "Noah",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "N",
+      "namelength": "4"
     },
     {
       "rank": 1,
       "name": "Olivia",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "O",
+      "namelength": "6"
     },
     {
       "rank": 2,
       "name": "Liam",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "L",
+      "namelength": "4"
     },
     {
       "rank": 2,
       "name": "Emma",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "E",
+      "namelength": "4"
     },
     {
       "rank": 3,
       "name": "Oliver",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "O",
+      "namelength": "6"
     },
     {
       "rank": 3,
       "name": "Amelia",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "A",
+      "namelength": "6"
     },
     {
       "rank": 4,
       "name": "Elijah",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "E",
+      "namelength": "6"
     },
     {
       "rank": 4,
       "name": "Ava",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "A",
+      "namelength": "3"
     },
     {
       "rank": 5,
       "name": "Gold",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "G",
+      "namelength": "4"
     },
     {
       "rank": 5,
       "name": "Sophia",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "S",
+      "namelength": "6"
     },
     {
       "rank": 6,
       "name": "Lucas",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "L",
+      "namelength": "5"
     },
     {
       "rank": 6,
       "name": "Isabella",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "I",
+      "namelength": "8"
     },
     {
       "rank": 7,
       "name": "Mateo",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "M",
+      "namelength": "5"
     },
     {
       "rank": 7,
       "name": "Luna",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "L",
+      "namelength": "4"
     },
     {
       "rank": 8,
       "name": "Levi",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "L",
+      "namelength": "4"
     },
     {
       "rank": 8,
       "name": "Mia",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "M",
+      "namelength": "3"
     },
     {
       "rank": 9,
       "name": "Asher",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "A",
+      "namelength": "5"
     },
     {
       "rank": 9,
       "name": "Charlotee",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "C",
+      "namelength": "9"
     },
     {
       "rank": 10,
       "name": "Ethan",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "E",
+      "namelength": "5"
     },
     {
       "rank": 10,
       "name": "Harper",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "H",
+      "namelength": "6"
     },
     {
       "rank": 11,
       "name": "James",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "J",
+      "namelength": "5"
     },
     {
       "rank": 11,
       "name": "Evelyn",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "E",
+      "namelength": "6"
     },
     {
       "rank": 12,
       "name": "Luca",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "L",
+      "namelength": "4"
     },
     {
       "rank": 12,
       "name": "Ella",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "E",
+      "namelength": "4"
     },
     {
       "rank": 13,
       "name": "Leo",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "L",
+      "namelength": "3"
     },
     {
       "rank": 13,
       "name": "Scarlett",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "S",
+      "namelength": "8"
     },
     {
       "rank": 14,
       "name": "Grayson",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "G",
+      "namelength": "7"
     },
     {
       "rank": 14,
       "name": "Aurora",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "A",
+      "namelength": "6"
     },
     {
       "rank": 15,
       "name": "Aiden",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "A",
+      "namelength": "5"
     },
     {
       "rank": 15,
       "name": "Gianna",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "G",
+      "namelength": "6"
     },
     {
       "rank": 16,
       "name": "Ezra",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "E",
+      "namelength": "4"
     },
     {
       "rank": 16,
       "name": "Nova",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "N",
+      "namelength": "4"
     },
     {
       "rank": 17,
       "name": "Benjamin",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "B",
+      "namelength": "8"
     },
     {
       "rank": 17,
       "name": "Aria",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "A",
+      "namelength": "4"
     },
     {
       "rank": 18,
       "name": "Henry",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "H",
+      "namelength": "5"
     },
     {
       "rank": 18,
       "name": "Mila",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "M",
+      "namelength": "4"
     },
     {
       "rank": 19,
       "name": "Sebastian",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "S",
+      "namelength": "9"
     },
     {
       "rank": 19,
       "name": "Sofia",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "S",
+      "namelength": "5"
     },
     {
       "rank": 20,
       "name": "Wyatt",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "W",
+      "namelength": "5"
     },
     {
       "rank": 20,
       "name": "Ellie",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "E",
+      "namelength": "5"
     },
     {
       "rank": 21,
       "name": "Owen",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "O",
+      "namelength": "4"
     },
     {
       "rank": 21,
       "name": "Violet",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "V",
+      "namelength": "6"
+
     },
     {
       "rank": 22,
       "name": "Mason",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "M",
+      "namelength": "5"
     },
     {
       "rank": 22,
       "name": "Willow",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "W",
+      "namelength": "6"
     },
     {
       "rank": 23,
       "name": "Jackson",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "J",
+      "namelength": "7"
     },
     {
       "rank": 23,
       "name": "Layla",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "L",
+      "namelength": "5"
     },
     {
       "rank": 24,
       "name": "Jack",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "J",
+      "namelength": "4"
     },
     {
       "rank": 24,
       "name": "Lily",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "L",
+      "namelength": "4"
     },
     {
       "rank": 25,
       "name": "Daniel",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "D",
+      "namelength": "6"
     },
     {
       "rank": 25,
       "name": "Camila",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "C",
+      "namelength": "6"
     },
     {
       "rank": 26,
       "name": "Alexander",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "A",
+      "namelength": "9"
     },
     {
       "rank": 26,
       "name": "Hazel",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "H",
+      "namelength": "5"
     },
     {
       "rank": 27,
       "name": "Hudson",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "H",
+      "namelength": "6"
     },
     {
       "rank": 27,
       "name": "Avery",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "A",
+      "namelength": "5"
     },
     {
       "rank": 28,
       "name": "Kai",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "K",
+      "namelength": "3"
     },
     {
       "rank": 28,
       "name": "Chloe",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "C",
+      "namelength": "5"
     },
     {
       "rank": 29,
       "name": "Gabriel",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "G",
+      "namelength": "7"
     },
     {
       "rank": 29,
       "name": "Penelope",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "P",
+      "namelength": "8"
     },
     {
       "rank": 30,
       "name": "Muhammad",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "M",
+      "namelength": "8"
     },
     {
       "rank": 30,
       "name": "Elena",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "E",
+      "namelength": "5"
     },
     {
       "rank": 31,
       "name": "William",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "W",
+      "namelength": "7"
     },
     {
       "rank": 31,
       "name": "Isla",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "I",
+      "namelength": "4"
     },
     {
       "rank": 32,
       "name": "Carter",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "C",
+      "namelength": "6"
     },
     {
       "rank": 32,
       "name": "Eliana",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "E",
+      "namelength": "6"
     },
     {
       "rank": 33,
       "name": "Maverick",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "M",
+      "namelength": "8"
     },
     {
       "rank": 33,
       "name": "Eleanor",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "E",
+      "namelength": "7"
     },
     {
       "rank": 34,
       "name": "Logan",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "L",
+      "namelength": "5"
     },
     {
       "rank": 34,
       "name": "Abigail",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "A",
+      "namelength": "7"
     },
     {
       "rank": 35,
       "name": "Michael",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "M",
+      "namelength": "7"
     },
     {
       "rank": 35,
       "name": "Elizabeth",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "E",
+      "namelength": "9"
     },
     {
       "rank": 36,
       "name": "Samuel",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "S",
+      "namelength": "6"
     },
     {
       "rank": 36,
       "name": "Nora",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "N",
+      "namelength": "4"
     },
     {
       "rank": 37,
       "name": "Ezekiel",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "E",
+      "namelength": "7"
     },
     {
       "rank": 37,
       "name": "Ivy",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "I",
+      "namelength": "3"
     },
     {
       "rank": 38,
       "name": "Jayden",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "J",
+      "namelength": "6"
     },
     {
       "rank": 38,
       "name": "Riley",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "R",
+      "namelength": "5"
     },
     {
       "rank": 39,
       "name": "Luke",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "L",
+      "namelength": "4"
     },
     {
       "rank": 39,
       "name": "Grace",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "G",
+      "namelength": "5"
     },
     {
       "rank": 40,
       "name": "Josiah",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "J",
+      "namelength": "6"
     },
     {
       "rank": 40,
       "name": "Emily",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "E",
+      "namelength": "5"
     },
     {
       "rank": 41,
       "name": "Lincoln",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "L",
+      "namelength": "7"
     },
     {
       "rank": 41,
       "name": "Paisley",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "P",
+      "namelength": "7"
     },
     {
       "rank": 42,
       "name": "David",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "D",
+      "namelength": "5"
     },
     {
       "rank": 42,
       "name": "Zoey",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "Z",
+      "namelength": "4"
     },
     {
       "rank": 43,
       "name": "Theo",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "T",
+      "namelength": "4"
     },
     {
       "rank": 43,
       "name": "Emilia",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "E",
+      "namelength": "6"
     },
     {
       "rank": 44,
       "name": "Julian",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "J",
+      "namelength": "6"
     },
     {
       "rank": 44,
       "name": "Stella",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "S",
+      "namelength": "6"
     },
     {
       "rank": 45,
       "name": "Elias",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "E",
+      "namelength": "5"
     },
     {
       "rank": 45,
       "name": "Everly",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "E",
+      "namelength": "6"
     },
     {
       "rank": 46,
       "name": "Jacob",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "J",
+      "namelength": "5"
     },
     {
       "rank": 46,
       "name": "Maya",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "M",
+      "namelength": "4"
     },
     {
       "rank": 47,
       "name": "Theodore",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "T",
+      "namelength": "8"
     },
     {
       "rank": 47,
       "name": "Leilani",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "L",
+      "namelength": "7"
     },
     {
       "rank": 48,
       "name": "Matthew",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "M",
+      "namelength": "7"
     },
     {
       "rank": 48,
       "name": "Athena",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "A",
+      "namelength": "6"
     },
     {
       "rank": 49,
       "name": "Waylon",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "W",
+      "namelength": "6"
     },
     {
       "rank": 49,
       "name": "Naomi",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "N",
+      "namelength": "5"
     },
     {
       "rank": 50,
       "name": "Jaxon",
-      "gender": "Boy"
+      "gender": "Boy",
+      "startletter": "J",
+      "namelength": "5"
     },
     {
       "rank": 50,
       "name": "Lucy",
-      "gender": "Girl"
+      "gender": "Girl",
+      "startletter": "L",
+      "namelength": "4"
     }
   ]

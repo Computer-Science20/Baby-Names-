@@ -73,6 +73,7 @@ function displayGender() {
 // Display Names within a Range of Ranks
 function displayRank() {
     let searchRank = prompt("Please enter the Rank to display: ");
+    searchRank = parseInt(searchRank);
     let htmlStr = "";
     for (let i = 0; i < babyData.length; i++) {
         if (babyData[i].rank === searchRank) {
@@ -87,10 +88,9 @@ function displayRank() {
 // Display Names with Starting Letter
 function displayStartingLetter() {
     let searchStartLetter = prompt("Please enter the First Letter of the Name to display: ");
-
     let htmlStr = "";
     for (let i = 0; i < babyData.length; i++) {
-      if (babyData[i].startingletter === searchStartLetter) {
+      if (babyData[i].startletter === searchStartLetter) {
         htmlStr += babyHTMLStr(babyData[i]);
       }
     }
@@ -101,10 +101,10 @@ function displayStartingLetter() {
 // Display Names with a Specific Length
 function displayLength() {
     let searchNameLength = prompt("Please enter the Length of the Name to display: ");
-
+    searchNameLength = parseInt(searchNameLength);
     let htmlStr = "";
     for (let i = 0; i < babyData.length; i++) {
-      if (babyData[i].length === searchNameLength) {
+      if (babyData[i].namelength === searchNameLength) {
         htmlStr += babyHTMLStr(babyData[i]);
       }
     }
